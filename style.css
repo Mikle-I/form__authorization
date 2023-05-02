@@ -1,0 +1,189 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.back--fon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #5d54a4, #7c78b8);
+}
+form,
+.form,
+.formUser,
+.formReg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fcfcfc;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 0px 50px 7px #000000;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+.formUser {
+  display: flex;
+  flex-direction: column;
+}
+.formUserU {
+  margin-top: 0px;
+}
+.form h1 {
+  font-size: 34px;
+}
+.form input {
+  width: 250px;
+  height: 30px;
+  margin-top: 20px;
+}
+.form button {
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+}
+.formReg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  border: 2px black solid;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.formReg input {
+  width: 250px;
+  height: 30px;
+  margin-top: 20px;
+}
+.formReg button {
+  width: 250px;
+  height: 30px;
+  margin-top: 20px;
+}
+.novisible {
+  display: none;
+}
+.erorrs {
+  margin-top: 24px;
+  display: block;
+  font-size: 24px;
+  color: red;
+}
+.g-recaptcha {
+  margin-top: 20px;
+}
+
+.formUser__input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 500px;
+}
+.formUser h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.formUser__input div {
+  width: 100px;
+
+  margin-right: 20px;
+  margin-left: 130px;
+}
+.but__exit {
+  width: 150px;
+  margin: 15px;
+}
